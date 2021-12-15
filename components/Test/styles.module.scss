@@ -1,0 +1,51 @@
+
+.test {
+  margin-top: 115px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.testContainer{
+  width: 100%;
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+}
+
+.block:nth-child(1){
+  background: #3751FF;
+}
+
+.block:nth-child(2){
+  margin-top: 145px;
+  background: #3751FF;
+}
+
+.block:nth-child(3){
+  margin-top: 202px;
+  background: #3751FF;
+}
+
+.block:nth-child(4){
+  margin-top: 260px;
+  background: #3751FF;
+}
+
+.block:nth-child(5){
+  margin-top: 120px;
+  background: #3751FF;
+}

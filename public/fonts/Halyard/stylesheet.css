@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Halyard Display';
+    src: url('HalyardDisplayMedium-Regular.eot');
+    src: url('HalyardDisplayMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HalyardDisplayMedium-Regular.woff2') format('woff2'),
+        url('HalyardDisplayMedium-Regular.woff') format('woff'),
+        url('HalyardDisplayMedium-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Halyard Text';
+    src: url('HalyardText-Regular.eot');
+    src: url('HalyardText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HalyardText-Regular.woff2') format('woff2'),
+        url('HalyardText-Regular.woff') format('woff'),
+        url('HalyardText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
