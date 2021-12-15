@@ -24,11 +24,31 @@ const Footer = () => {
                         </div>
                         <div className={styles.nav1}>
                             <ul className={styles.li}>
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>News</li>
-                                <li>Pricing</li>
-                                <li>Contact</li>
+                                <li>
+                                    <a href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -40,11 +60,31 @@ const Footer = () => {
                         </div>
                         <div className={styles.nav2}>
                             <ul className={styles.li}>
-                                <li>Classic</li>
-                                <li>Boxy</li>
-                                <li>Gradient</li>
-                                <li>Minimal</li>
-                                <li>Night</li>
+                                <li>
+                                    <a href="#">
+                                        Classic
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Boxy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Gradient
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Minimal
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Night
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -55,42 +95,61 @@ const Footer = () => {
                             Resources
                         </div>
                         <div className={styles.icon}>
-                            <img src="icon-facebook.svg" alt=""/>
-                            <img src="icon-instagram.svg" alt=""/>
-                            <img src="icon-twitter.svg" alt=""/>
-                            <img src="icon-dribbble.svg" alt=""/>
-                            <img src="icon-envato.svg" alt=""/>
+                            <a href="https://www.facebook.com/">
+                                <img src="icon-facebook.svg" alt=""/>
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="icon-instagram.svg" alt=""/>
+                            </a>
+                            <a href="https://www.twitter.com/">
+                                <img src="icon-twitter.svg" alt=""/>
+                            </a>
+                            <a href="https://www.dribbble.com/">
+                                <img src="icon-dribbble.svg" alt=""/>
+                            </a>
+                            <a href="https://www.envato.com/">
+                                <img src="icon-envato.svg" alt=""/>
+                            </a>
+
+
                         </div>
 
                         <div className={styles.doc}>
                             <ul className={styles.li}>
-                                <li>Download now</li>
-                                <li>Documentation</li>
+                                <li>
+                                    <a href="#">
+                                        Download now
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Documentation
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                    <div className={styles.bottom}>
-                        <div className={styles.sponsor}>
-                            Copyright © 2020 tempy.club
-                        </div>
-
-                        <div className={styles.politics}>
-                            <ul className={styles.list}>
-                                <li>
-                                    Privacy Policy
-                                </li>
-                                <li>
-                                    Terms of Use
-                                </li>
-                                <li>
-                                    GDPR
-                                </li>
-                            </ul>
-                        </div>
+                <div className={styles.bottom}>
+                    <div className={styles.sponsor}>
+                        Copyright © 2020 tempy.club
                     </div>
 
+                    <div className={styles.politics}>
+                        <ul className={styles.list}>
+                            <li>
+                                Privacy Policy
+                            </li>
+                            <li>
+                                Terms of Use
+                            </li>
+                            <li>
+                                GDPR
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 
             </div>

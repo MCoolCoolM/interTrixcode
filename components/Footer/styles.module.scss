@@ -54,6 +54,10 @@
 }
 
 .li{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   list-style-type: none;
   position: relative;
   left: -38px;
@@ -119,21 +123,21 @@
   font-size: 14px;
   width: 1178px;
   height: 58px;
+  color: rgba(69, 88, 128, 0.5);
 }
 
 .sponsor{
   display: flex;
   color: rgba(69, 88, 128, 0.5);
-  color: #455880;
   align-items: center;
   height: 38px;
 }
 
 .politics{
   width: 310px;
-  color: #455880;
   height: 38px;
   align-items: flex-start;
+  color: #455880;
 }
 
 .list{
