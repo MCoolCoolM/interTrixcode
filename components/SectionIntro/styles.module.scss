@@ -5,78 +5,73 @@
   display: flex;
   flex-direction: column;
   position: relative;
+
+  &__container {
+    height: 735px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    z-index: 0;
+  }
+
+  &__sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    z-index: 1;
+
+    &__info {
+      height: 118px;
+      width: 500px;
+      font-family: "Halyard Display";
+      font-size: 56px;
+      line-height: 58px;
+      color: #1E266D;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    &__additional {
+      width: 1180px;
+      height: 27px;
+      font-family: "Halyard Text";
+      font-size: 18px;
+      line-height: 27px;
+      color: #1E266D;
+      margin-top: 27px;
+      weight:400vw;
+      text-align: center;
+    }
+
+    &__button {
+      margin-top: 29px;
+    }
+
+    &__graphic {
+      margin-top: 32px;
+      width: 977px;
+      height: 585px;
+    }
+  }
 }
 
-.all{
-  height: 735px;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
-  z-index: 0;
-}
-
-.sectionContainer{
-  //margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: auto;
-  z-index: 1;
-}
-
-.info{
-  height: 118px;
-  width: 500px;
-  font-family: "Halyard Display";
-  font-size: 56px;
-  line-height: 58px;
-  color: #1E266D;
-  text-align: center;
-  word-wrap: break-word;
-}
-
-.additional {
-  width: 1180px;
-  height: 27px;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  line-height: 27px;
-  color: #1E266D;
-  margin-top: 27px;
-  weight:400vw;
-  text-align: center;
-
-}
-
-.buy{
-  background: blue;
+.button {
   border-radius: 30px;
-  color:white;
   padding: 0.85em 2.5em;
+  font-size: 16px;
+  font-family: "Halyard Text";
+  margin: 0 10px;
   border: none;
-  margin: 0 10px;
-  font-size: 16px;
-  font-family: "Halyard Text";
-}
 
-.see{
-  background: white;
-  border-radius: 30px;
-  padding: 0.85em 2.5em;
-  margin: 0 10px;
-  color: #1E266D;
-  border-color: rgba(69, 88, 128, 0.2);
-  font-size: 16px;
-  font-family: "Halyard Text";
-}
+  &_buy {
+    background: blue;
+    color:white;
+  }
 
-.button{
-  margin-top: 29px;
-}
-
-
-.graphic{
-  margin-top: 32px;
-  width: 977px;
-  height: 585px;
+  &_see {
+    background: white;
+    color: #1E266D;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+  }
 }
