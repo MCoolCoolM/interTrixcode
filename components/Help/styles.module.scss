@@ -1,263 +1,260 @@
-
 .help {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
-}
 
-.helpContainer{
-  width: auto;
-  height: 1500px;
-}
+  &__helpContainer {
+    width: auto;
+    height: 1500px;
 
-.advertising{
-  width: 100%;
-  align-items: center;
-  position: absolute;
-  z-index: -1;
-  top: 1080px;
-  left: -29px;
-  font-family: "Halyard Text";
-  color:grey;
-  font-size: 16px;
-}
+    &__advertising {
+      width: 100%;
+      align-items: center;
+      position: absolute;
+      z-index: -1;
+      top: 1080px;
+      left: -29px;
+      font-family: "Halyard Text";
+      color:grey;
+      font-size: 16px;
 
-.trust{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  height: 27px;
-  line-height: 27px;
-}
+      &__trust {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 27px;
+        line-height: 27px;
+      }
 
-.logo{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 49px;
-}
+      &__logo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 49px;
+      }
+    }
 
-.info{
-  display: flex;
-  justify-content: center;
-  margin-top: 430px;
-  width: 100%;
-  height: 120px;
-  line-height: 60px;
-  font-size: 48px;
-  font-family: "Halyard Display";
-  color: #1E266D;
-}
+    &__info {
+      display: flex;
+      justify-content: center;
+      margin-top: 430px;
+      width: 100%;
+      height: 120px;
+      line-height: 60px;
+      font-size: 48px;
+      font-family: "Halyard Display";
+      color: #1E266D;
+    }
 
-.block1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 450px;
-  position: relative;
-  margin-bottom: 40px;
-  margin-top: 126px;
+    &__block1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 450px;
+      position: relative;
+      margin-bottom: 40px;
+      margin-top: 126px;
 
-}
+      &__graphic1 {
+        position: absolute;
+        top: -255px;
+        left: -670px;
 
-.graphic1{
-  position: absolute;
-  //bottom: 0;
-  top: -255px;
-  left: -670px;
-}
+        &__rectangle4 {
+          position: absolute;
+          top: 475px;
+          left: 290px;
+          width: 64px;
+          height: 64px;
+        }
 
-.rectangle5{
-  width: 331px;
-  height: 357px;
-  position: absolute;
-  top: 255px;
-}
+        &__rectangle5 {
+          width: 331px;
+          height: 357px;
+          position: absolute;
+          top: 255px;
+        }
 
-.image4{
-  width: 409px;
-  height: 612px;
-  position: relative;
-}
+        &__image4 {
+          width: 409px;
+          height: 612px;
+          position: relative;
+        }
+      }
 
-.rectangle4{
-  position: absolute;
-  top: 475px;
-  left: 290px;
-  width: 64px;
-  height: 64px;
-}
+      &__box1 {
+        width: 405px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(69, 88, 128, 0.2);
 
-.box1{
-  width: 405px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(69, 88, 128, 0.2);
-}
+        &__icon1 {
+          display: flex;
+          width: 58px;
+          height: 58px;
+        }
 
-.icon1{
-  display: flex;
-  width: 58px;
-  height: 58px;
-}
+        &__info1 {
+          width: 300px;
+          display: flex;
+          flex-direction: column;
 
-.info1{
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
+          &__purpose1 {
+            font-size: 22px;
+            font-family: "Halyard Display";
+            color: #1E266D;
+            line-height: 125%;
+          }
 
-.Purpose1{
-  font-size: 22px;
-  font-family: "Halyard Display";
-  color: #1E266D;
-  line-height: 125%;
-}
+          &__description1 {
+            font-size: 18px;
+            font-family: "Halyard Text";
+            color: #455880;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
 
-.Description1{
-  font-size: 18px;
-  font-family: "Halyard Text";
-  color: #455880;
-  margin-top: 40px;
-}
+    &__block2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 40px;
+      left: 450px;
 
-.block2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 40px;
-  left: 450px;
-}
+      &__graphic2 {
+        position: absolute;
+        left: -840px;
+        top: 28px;
 
-.graphic2{
-  position: absolute;
-  left: -840px;
-  top: 28px;
-}
+        &__ellipse1 {
+          position: absolute;
+          height: 102px;
+          width: 102px;
+          top: 140px;
+          left: -40px;
+        }
 
-.ellipse1{
-  position: absolute;
-  height: 102px;
-  width: 102px;
-  top: 140px;
-  left: -40px;
-}
+        &__rectangle6 {
+          width: 266px;
+          height: 308px;
+          position: absolute;
+          top: 5px;
+        }
 
-.image5{
-  width: 470px;
-  height: 313px;
-  position: relative;
-}
+        &__image5 {
+          width: 470px;
+          height: 313px;
+          position: relative;
+        }
+      }
 
-.rectangle6{
-  width: 266px;
-  height: 308px;
-  position: absolute;
-  top: 5px;
-}
+      &__box2 {
+        width: 405px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(69, 88, 128, 0.2);
 
-.box2{
-  width: 405px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(69, 88, 128, 0.2);
-}
+        &__icon2 {
+          display: flex;
+          width: 58px;
+          height: 58px;
+        }
 
-.icon2{
-  display: flex;
-  width: 58px;
-  height: 58px;
-}
+        &__info2 {
+          width: 300px;
+          display: flex;
+          flex-direction: column;
 
-.info2{
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
+          &__purpose2 {
+            font-size: 22px;
+            font-family: "Halyard Display";
+            color: #1E266D;
+            line-height: 125%;
+          }
 
-.Purpose2{
-  font-size: 22px;
-  font-family: "Halyard Display";
-  color: #1E266D;
-  line-height: 125%;
-}
+          &__description2 {
+            font-size: 18px;
+            font-family: "Halyard Text";
+            color: #455880;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
 
-.Description2{
-  font-size: 18px;
-  font-family: "Halyard Text";
-  color: #455880;
-  margin-top: 40px;
-}
+    &__block3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 40px;
+      left: 450px;
 
-.block3{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 40px;
-  left: 450px;
-}
+      &__graphic3 {
+        position: absolute;
+        left: -630px;
+        top: -58px;
 
-.graphic3{
-  position: absolute;
-  left: -630px;
-  top: -58px;
-}
+        &__vector2 {
+          position: absolute;
+          width: 69px;
+          height: 71px;
+          top: 220px;
+          left: 165px;
+        }
 
-.image6{
-  position: relative;
-  width: 182px;
-  height: 256px;
-  left: 20px;
-}
+        &__rectangle7 {
+          position: absolute;
+          width: 201px;
+          height: 200px;
+          top: 55px;
+        }
 
-.rectangle7{
-  position: absolute;
-  width: 201px;
-  height: 200px;
-  top: 55px;
-}
+        &__image6 {
+          position: relative;
+          width: 182px;
+          height: 256px;
+          left: 20px;
+        }
+      }
 
-.vector2{
-  position: absolute;
-  width: 69px;
-  height: 71px;
-  top: 220px;
-  left: 165px;
-}
+      &__box3 {
+        width: 405px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
 
-.box3{
-  width: 405px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-}
+        &__icon3 {
+          display: flex;
+          width: 58px;
+          height: 58px;
+        }
 
-.icon3{
-  display: flex;
-  width: 58px;
-  height: 58px;
-}
+        &__info3 {
+          width: 300px;
+          display: flex;
+          flex-direction: column;
 
-.info3{
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
+          &__purpose3 {
+            font-size: 22px;
+            font-family: "Halyard Display";
+            color: #1E266D;
+            line-height: 125%;
+          }
 
-.Purpose3{
-  font-size: 22px;
-  font-family: "Halyard Display";
-  color: #1E266D;
-  line-height: 125%;
-}
-
-.Description3{
-  font-size: 18px;
-  font-family: "Halyard Text";
-  color: #455880;
-  margin-top: 40px;
+          &__description3 {
+            font-size: 18px;
+            font-family: "Halyard Text";
+            color: #455880;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
 }

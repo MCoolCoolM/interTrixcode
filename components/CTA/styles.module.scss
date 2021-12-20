@@ -1,66 +1,66 @@
-.cta{
+.cta {
   width: 100%;
   height: 320px;
   display: flex;
   justify-content: center;
   background-color: #3751FF;
-}
 
-.ctaContainer{
-  width: 1178px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  &__ctaContainer {
+    width: 1178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-.info{
-  display: flex;
-  width: 426px;
-  height: 120px;
-  font-size: 48px;
-  font-family: "Halyard Display";
-  line-height: 60px;
-  color: #FFFFFF;
-}
+    &__info {
+      display: flex;
+      width: 426px;
+      height: 120px;
+      font-size: 48px;
+      font-family: "Halyard Display";
+      line-height: 60px;
+      color: #FFFFFF;
+    }
 
-.additional{
-  color: #DFE0EB;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  height: 100px;
-  width: 300px;
-  font-family: "Halyard Text";
-}
+    &__additional {
+      color: #DFE0EB;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      height: 100px;
+      width: 300px;
+      font-family: "Halyard Text";
 
-.btn{
-  position: relative;
-  top: 10px;
-  width: 250px;
-  border-radius: 30px;
-  padding: 0.9em 2em;
-  background-color: #FFFFFF;
-  border: none;
-  color: #455880;
-  font-family: "Halyard Display";
-  font-size: 18px;
-}
+      &__btn {
+        position: relative;
+        top: 10px;
+        width: 250px;
+        border-radius: 30px;
+        padding: 0.9em 2em;
+        background-color: #FFFFFF;
+        border: none;
+        color: #455880;
+        font-family: "Halyard Display";
+        font-size: 18px;
 
-.span{
-  position: relative;
-  top: 25px;
-}
+        &__img {
+          position: relative;
+          top: 3px;
+          right: 20px;
+        }
+      }
 
-.img{
-  position: relative;
-  top: 3px;
-  right: 20px;
-}
+      &__span {
+        position: relative;
+        top: 25px;
 
-.a{
-  color: gold;
-}
+        &__a {
+          color: gold;
 
-.a:before{
-  content: "\00a0 ";
+          &:before {
+            content: "\00a0 ";
+          }
+        }
+      }
+    }
+  }
 }

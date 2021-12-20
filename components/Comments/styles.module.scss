@@ -1,150 +1,147 @@
-.comments{
+.comments {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
-}
 
-.commentsContainer{
-  width: 1178px;
-  height: 965px;
-  display: flex;
-  justify-content: center;
-}
+  &__commentsContainer {
+    width: 1178px;
+    height: 965px;
+    display: flex;
+    justify-content: center;
 
-.section{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
+    &__section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
 
-.info{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 85px;
-  width: 483px;
-  height: 60px;
-  color: #1E266D;
-  font-size: 48px;
-  font-family: "Halyard Display";
-  line-height: 60px;
-}
+      &__info {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 85px;
+        width: 483px;
+        height: 60px;
+        color: #1E266D;
+        font-size: 48px;
+        font-family: "Halyard Display";
+        line-height: 60px;
+      }
 
-.rectangle{
-  display: flex;
-  //justify-content: space-evenly;
-  position: relative;
-  top: 10px;
-}
+      &__rectangle {
+        display: flex;
+        position: relative;
+        top: 10px;
 
-.comments1{
-  margin: 0 30px auto 0;
-  //position: absolute;
-}
+        &__txt1 {
+          position: absolute;
+          width: 286px;
+          line-height: 180%;
+          font-family: "Halyard Text";
+          font-size: 18px;
+          color: #455880;
+          //сверху справа снизу слева
+          margin: 38px 0 0 43px;
+        }
 
-.txt1{
-  position: absolute;
-  width: 286px;
-  line-height: 180%;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  color: #455880;
-  //сверху справа снизу слева
-  margin: 38px 0 0 43px;
-}
+        &__comments1 {
+          margin: 0 30px auto 0;
+        }
 
-.img1{
-  position: absolute;
-  top: 288px;
-  left: 154px;
-}
+        &__img1 {
+          position: absolute;
+          top: 288px;
+          left: 154px;
+        }
 
-.user1{
-  color: #1E266D;
-  font-size: 22px;
-  font-family: "Halyard Display";
-  position: relative;
-  top: -100px;
-  left: 133px;
-}
+        &__user1 {
+          color: #1E266D;
+          font-size: 22px;
+          font-family: "Halyard Display";
+          position: relative;
+          top: -100px;
+          left: 133px;
+        }
 
-.club1{
-  color: #455880;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  width: 247px;
-  position: relative;
-  top: -100px;
-  left: 140px
-}
+        &__club1 {
+          color: #455880;
+          font-family: "Halyard Text";
+          font-size: 18px;
+          width: 247px;
+          position: relative;
+          top: -100px;
+          left: 140px
+        }
 
-.comments2{
-  //position: absolute;
-  margin: 0 30px auto 0;
-}
+        &__txt2 {
+          position: absolute;
+          width: 286px;
+          line-height: 180%;
+          font-family: "Halyard Text";
+          font-size: 18px;
+          color: #455880;
+          margin: 38px 0 0 43px;
+        }
 
-.txt2{
-  position: absolute;
-  width: 286px;
-  line-height: 180%;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  color: #455880;
-  margin: 38px 0 0 43px;
-}
+        &__comments2 {
+          margin: 0 30px auto 0;
+        }
 
-.img2{
-  position: absolute;
-  top: 288px;
-  left: 554px;
-}
+        &__img2 {
+          position: absolute;
+          top: 288px;
+          left: 554px;
+        }
 
-.user2{
-  color: #1E266D;
-  font-size: 22px;
-  font-family: "Halyard Display";
-  position: relative;
-  top: -100px;
-  left: 130px;
-}
+        &__user2 {
+          color: #1E266D;
+          font-size: 22px;
+          font-family: "Halyard Display";
+          position: relative;
+          top: -100px;
+          left: 130px;
+        }
 
-.comments3{
-  //position: absolute;
-}
+        &__txt3 {
+          position: absolute;
+          width: 286px;
+          line-height: 180%;
+          font-family: "Halyard Text";
+          font-size: 18px;
+          color: #455880;
+          margin: 38px 0 0 43px;
+        }
 
-.txt3{
-  position: absolute;
-  width: 286px;
-  line-height: 180%;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  color: #455880;
-  margin: 38px 0 0 43px;
-}
+        &__comments3 {
 
-.img3{
-  position: absolute;
-  top: 288px;
-  left: 954px;
-}
+        }
 
-.user3{
-  color: #1E266D;
-  font-size: 22px;
-  font-family: "Halyard Display";
-  position: relative;
-  top: -100px;
-  left: 125px;
-}
+        &__img3 {
+          position: absolute;
+          top: 288px;
+          left: 954px;
+        }
 
-.club3{
-  color: #455880;
-  font-family: "Halyard Text";
-  font-size: 18px;
-  width: 247px;
-  position: relative;
-  top: -100px;
-  left: 133px
+        &__user3 {
+          color: #1E266D;
+          font-size: 22px;
+          font-family: "Halyard Display";
+          position: relative;
+          top: -100px;
+          left: 125px;
+        }
+
+        &__club3 {
+          color: #455880;
+          font-family: "Halyard Text";
+          font-size: 18px;
+          width: 247px;
+          position: relative;
+          top: -100px;
+          left: 133px
+        }
+      }
+    }
+  }
 }

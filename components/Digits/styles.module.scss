@@ -1,94 +1,94 @@
-.digits{
+.digits {
   color: #1E266D;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   position: relative;
-}
 
-.digitsContainer{
-  background: #FFF9EA;
-  width: 100%;
-  height: 1001px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+  &__digitsContainer {
+    background: #FFF9EA;
+    width: 100%;
+    height: 1001px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
-.section{
-  margin-top: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 1178px;
-  height: 268px;
-}
+    &__section {
+      margin-top: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 1178px;
+      height: 268px;
 
-.info{
-  height: 60px;
-  width: 1178px;
-  font-family: "Halyard Display";
-  font-size: 48px;
-  line-height: 60px;
-  color: #1E266D;
-  text-align: center;
-}
+      &__info {
+        height: 60px;
+        width: 1178px;
+        font-family: "Halyard Display";
+        font-size: 48px;
+        line-height: 60px;
+        color: #1E266D;
+        text-align: center;
+      }
 
-.additional{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 90px;
-  line-height: 31px;
-  font-size: 21px;
-  font-family: "Halyard Text";
-  color: #455880;
-}
+      &__additional {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 90px;
+        line-height: 31px;
+        font-size: 21px;
+        font-family: "Halyard Text";
+        color: #455880;
+      }
 
-.button{
-  display: block;
-  background: #3751FF;
-  border-radius: 30px;
-  color:white;
-  width: 140px;
-  padding: 0.8em 2em;
-  line-height: 20px;
-  border: none;
-  font-size: 16px;
-  font-family: "Halyard Text";
-}
+      &__button {
+        display: block;
+        background: #3751FF;
+        border-radius: 30px;
+        color:white;
+        width: 140px;
+        padding: 0.8em 2em;
+        line-height: 20px;
+        border: none;
+        font-size: 16px;
+        font-family: "Halyard Text";
+      }
+    }
 
-.parents{
-  display: flex;
-  align-items: center;
-}
+    &__parents {
+      display: flex;
+      align-items: center;
 
-.child{
-  display: flex;
-  flex-direction: column;
-}
+      &__child {
+        display: flex;
+        flex-direction: column;
 
-.child:first-child{
-  margin-top: -5px;
-}
+        &:first-child {
+          margin-top: -5px;
+        }
 
-.child:nth-child(2){
-  margin-top: 139px;
-}
+        &:nth-child(2) {
+          margin-top: 139px;
+        }
 
-.child:nth-child(3){
-  margin-top: 197px;
-}
+        &:nth-child(3) {
+          margin-top: 197px;
+        }
 
-.child:nth-child(4){
-  margin-top: 255px;
-}
+        &:nth-child(4) {
+          margin-top: 255px;
+        }
 
-.child:nth-child(5){
-  margin-top: 115px;
+        &:nth-child(5) {
+          margin-top: 115px;
+        }
+      }
+    }
+  }
 }
